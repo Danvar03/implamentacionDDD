@@ -2,9 +2,9 @@ package com.example.implementacionDDD.Tienda.Usuario.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
-public class Clave implements ValueObject<String> {
+public class Precio implements ValueObject<Float> {
 
-    public String value() {
+    public Float value() {
         return null;
     }
 }
