@@ -1,4 +1,4 @@
-package com.sofka.implementacionDDD.Tienda.VideoJuego.events;
+package com.sofka.implementacionDDD.Tienda.VideoJuego.commands;
 
 import co.com.sofka.domain.generic.Command;
 import com.sofka.implementacionDDD.Tienda.VideoJuego.values.DineroTotal;

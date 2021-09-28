@@ -1,4 +1,4 @@
-package com.sofka.implementacionDDD.Tienda.VideoJuego.commands;
+package com.sofka.implementacionDDD.Tienda.VideoJuego.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
 import com.sofka.implementacionDDD.Tienda.VideoJuego.values.Adquirido;

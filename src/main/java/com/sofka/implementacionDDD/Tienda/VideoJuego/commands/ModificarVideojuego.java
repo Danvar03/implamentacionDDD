@@ -1,37 +1,27 @@
 package com.sofka.implementacionDDD.Tienda.VideoJuego.commands;
 
-import co.com.sofka.domain.generic.DomainEvent;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Empresa;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Estadisticas;
+import co.com.sofka.domain.generic.Command;
 import com.sofka.implementacionDDD.Tienda.VideoJuego.values.Adquirido;
 import com.sofka.implementacionDDD.Tienda.VideoJuego.values.Descripcion;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.values.IdVideojuego;
 import com.sofka.implementacionDDD.Tienda.genericvalues.Precio;
 
-public class VideojuegoCreado extends DomainEvent {
 
-
-    private final Empresa empresa;
-    private final Estadisticas estadisticas;
+public class ModificarVideojuego implements Command {
+    private final IdVideojuego idVideojuego;
     private final Precio precio;
     private final Descripcion descripcion;
     private final Adquirido adquirido;
 
-    public VideojuegoCreado( Empresa empresa, Estadisticas estadisticas, Precio precio, Descripcion descripcion, Adquirido adquirido) {
-        super("tienda.videojuego.videojuegocreado");
-        this.empresa = empresa;
-        this.estadisticas = estadisticas;
+    public ModificarVideojuego(IdVideojuego idVideojuego, Precio precio, Descripcion descripcion, Adquirido adquirido) {
+        this.idVideojuego = idVideojuego;
         this.precio = precio;
         this.descripcion = descripcion;
         this.adquirido = adquirido;
     }
 
-
-    public Empresa getEmpresa() {
-        return empresa;
-    }
-
-    public Estadisticas getEstadisticas() {
-        return estadisticas;
+    public IdVideojuego getIdVideojuego() {
+        return idVideojuego;
     }
 
     public Precio getPrecio() {

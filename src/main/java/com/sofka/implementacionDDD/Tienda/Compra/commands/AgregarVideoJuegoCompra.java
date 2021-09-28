@@ -1,9 +1,10 @@
 package com.sofka.implementacionDDD.Tienda.Compra.commands;
 
+import co.com.sofka.domain.generic.Command;
 import com.sofka.implementacionDDD.Tienda.Compra.values.IdCompra;
 import com.sofka.implementacionDDD.Tienda.VideoJuego.Videojuego;
 
-public class AgregarVideoJuegoCompra {
+public final class AgregarVideoJuegoCompra implements Command {
     private final IdCompra idCompra;
     private final Videojuego videojuego;
 

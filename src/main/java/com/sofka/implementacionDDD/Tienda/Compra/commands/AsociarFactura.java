@@ -1,11 +1,12 @@
 package com.sofka.implementacionDDD.Tienda.Compra.commands;
 
+import co.com.sofka.domain.generic.Command;
 import com.sofka.implementacionDDD.Tienda.Compra.values.Fecha;
 import com.sofka.implementacionDDD.Tienda.Compra.values.IdCompra;
 import com.sofka.implementacionDDD.Tienda.Compra.values.NumeroVideojuegos;
 import com.sofka.implementacionDDD.Tienda.Compra.values.PrecioTotal;
 
-public class AsociarFactura {
+public class AsociarFactura  implements Command {
     private final IdCompra idCompra;
     private final PrecioTotal precioTotal;
     private final NumeroVideojuegos numeroVideojuegos;

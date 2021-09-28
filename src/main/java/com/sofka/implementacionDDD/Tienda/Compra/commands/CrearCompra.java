@@ -1,5 +1,6 @@
 package com.sofka.implementacionDDD.Tienda.Compra.commands;
 
+import co.com.sofka.domain.generic.Command;
 import com.sofka.implementacionDDD.Tienda.Compra.entity.Descuento;
 import com.sofka.implementacionDDD.Tienda.Compra.entity.Factura;
 import com.sofka.implementacionDDD.Tienda.Compra.values.IdCompra;
@@ -9,7 +10,7 @@ import com.sofka.implementacionDDD.Tienda.VideoJuego.Videojuego;
 
 import java.util.List;
 
-public class CrearCompra {
+public class CrearCompra  implements Command {
     private final IdCompra idCompra;
     private final Usuario usuario;
     private final List<Videojuego> videojuegos;

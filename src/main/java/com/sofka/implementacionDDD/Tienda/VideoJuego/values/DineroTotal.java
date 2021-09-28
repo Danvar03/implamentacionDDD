@@ -6,16 +6,23 @@ import java.util.Objects;
 
 public class DineroTotal implements ValueObject<String> {
 
-    private final String dineoTotal;
+    private final String dineroTotal;
 
     public DineroTotal(String dineroTotal) {
-        this.dineoTotal = Objects.requireNonNull(dineroTotal);
+        this.dineroTotal = Objects.requireNonNull(dineroTotal);
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        DineroTotal that = (DineroTotal) o;
+        return Objects.equals(dineroTotal, that.dineroTotal);
+    }
 
     @Override
     public int hashCode() {
-        return Objects.hash(dineoTotal);
+        return Objects.hash(dineroTotal);
     }
 
     @Override
