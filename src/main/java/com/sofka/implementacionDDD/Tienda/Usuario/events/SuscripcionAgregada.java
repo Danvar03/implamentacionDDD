@@ -10,9 +10,17 @@ public class SuscripcionAgregada extends DomainEvent {
     private final InformacionSuscripcion informacionSuscripcion;
 
 
-    public SuscripcionAgregada(String type, IdSuscripcion idSuscripcion, InformacionSuscripcion informacionSuscripcion) {
+    public SuscripcionAgregada(IdSuscripcion idSuscripcion, InformacionSuscripcion informacionSuscripcion) {
         super("tienda.usuario.suscripcionagregada");
         this.idSuscripcion = idSuscripcion;
         this.informacionSuscripcion = informacionSuscripcion;
+    }
+
+    public IdSuscripcion getIdSuscripcion() {
+        return idSuscripcion;
+    }
+
+    public InformacionSuscripcion getInformacionSuscripcion() {
+        return informacionSuscripcion;
     }
 }

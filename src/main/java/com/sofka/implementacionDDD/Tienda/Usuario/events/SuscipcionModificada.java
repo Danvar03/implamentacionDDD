@@ -4,13 +4,13 @@ import co.com.sofka.domain.generic.DomainEvent;
 import com.sofka.implementacionDDD.Tienda.Usuario.values.IdSuscripcion;
 import com.sofka.implementacionDDD.Tienda.Usuario.values.InformacionSuscripcion;
 
-public class TarjetaModificada extends DomainEvent {
+public class SuscipcionModificada extends DomainEvent {
 
     private final InformacionSuscripcion informacionSuscripcion;
     private final IdSuscripcion idSuscripcion;
 
-    public TarjetaModificada(String type, InformacionSuscripcion informacionSuscripcion, IdSuscripcion idSuscripcion) {
-        super(type);
+    public SuscipcionModificada(InformacionSuscripcion informacionSuscripcion, IdSuscripcion idSuscripcion) {
+        super("tienda.usuario.suscripciontamodificada");
         this.informacionSuscripcion = informacionSuscripcion;
         this.idSuscripcion = idSuscripcion;
     }
