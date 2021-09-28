@@ -1,4 +1,4 @@
 package com.sofka.implementacionDDD.Tienda.VideoJuego;
 
-public class Estadistica {
+public class Estadisticas {
 }
