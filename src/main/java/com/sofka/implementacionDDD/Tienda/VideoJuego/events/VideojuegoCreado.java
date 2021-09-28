@@ -1,8 +1,8 @@
 package com.sofka.implementacionDDD.Tienda.VideoJuego.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Empresa;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Estadisticas;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.entity.Empresa;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.entity.Estadisticas;
 import com.sofka.implementacionDDD.Tienda.VideoJuego.values.Adquirido;
 import com.sofka.implementacionDDD.Tienda.VideoJuego.values.Descripcion;
 import com.sofka.implementacionDDD.Tienda.genericvalues.Precio;

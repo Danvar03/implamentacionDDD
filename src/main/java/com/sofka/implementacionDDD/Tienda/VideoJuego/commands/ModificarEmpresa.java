@@ -1,7 +1,7 @@
 package com.sofka.implementacionDDD.Tienda.VideoJuego.commands;
 
 import co.com.sofka.domain.generic.Command;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Empresa;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.entity.Empresa;
 import com.sofka.implementacionDDD.Tienda.VideoJuego.values.IdVideojuego;
 
 public class ModificarEmpresa implements Command {

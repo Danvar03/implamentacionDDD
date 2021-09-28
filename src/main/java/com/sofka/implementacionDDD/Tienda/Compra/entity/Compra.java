@@ -3,8 +3,8 @@ import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
 import com.sofka.implementacionDDD.Tienda.Compra.events.*;
 import com.sofka.implementacionDDD.Tienda.Compra.values.*;
-import com.sofka.implementacionDDD.Tienda.Usuario.Usuario;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Videojuego;
+import com.sofka.implementacionDDD.Tienda.Usuario.entity.Usuario;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.entity.Videojuego;
 
 import java.util.List;
 import java.util.Objects;

@@ -8,12 +8,13 @@ import com.sofka.implementacionDDD.Tienda.VideoJuego.values.TotalVentas;
 public class ActualizarValoresDeEstadisticas implements Command {
     private final IdVideojuego idVideojuego;
     private final TotalVentas totalVentas;
-    private final DineroTotal dineroRecaudado;
+    private final  DineroTotal dineroTotal;
 
-    public ActualizarValoresDeEstadisticas(IdVideojuego idVideojuego, TotalVentas totalVentas, DineroTotal dineroRecaudado) {
+
+    public ActualizarValoresDeEstadisticas(IdVideojuego idVideojuego, TotalVentas totalVentas, DineroTotal dineroTotal) {
         this.idVideojuego = idVideojuego;
         this.totalVentas = totalVentas;
-        this.dineroRecaudado = dineroRecaudado;
+        this.dineroTotal = dineroTotal;
     }
 
     public IdVideojuego getIdVideojuego() {
@@ -24,7 +25,7 @@ public class ActualizarValoresDeEstadisticas implements Command {
         return totalVentas;
     }
 
-    public DineroTotal getDineroRecaudado() {
-        return dineroRecaudado;
+    public DineroTotal getDineroTotal() {
+        return dineroTotal;
     }
 }

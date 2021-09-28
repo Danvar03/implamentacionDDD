@@ -1,4 +1,4 @@
-package com.sofka.implementacionDDD.Tienda.Usuario;
+package com.sofka.implementacionDDD.Tienda.Usuario.entity;
 
 import co.com.sofka.domain.generic.AggregateEvent;
 import com.sofka.implementacionDDD.Tienda.Compra.values.Correo;

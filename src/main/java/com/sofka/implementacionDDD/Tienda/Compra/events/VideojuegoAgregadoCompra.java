@@ -1,7 +1,7 @@
 package com.sofka.implementacionDDD.Tienda.Compra.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Videojuego;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.entity.Videojuego;
 
 public class VideojuegoAgregadoCompra extends DomainEvent {
     private final Videojuego videojuego;

@@ -2,7 +2,7 @@ package com.sofka.implementacionDDD.Tienda.Usuario.commands;
 
 import co.com.sofka.domain.generic.Command;
 import com.sofka.implementacionDDD.Tienda.Usuario.values.IdUsuario;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Videojuego;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.entity.Videojuego;
 
 public class AgregarVideojuego implements Command {
 

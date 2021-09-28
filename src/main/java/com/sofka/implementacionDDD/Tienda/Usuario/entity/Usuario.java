@@ -1,4 +1,4 @@
-package com.sofka.implementacionDDD.Tienda.Usuario;
+package com.sofka.implementacionDDD.Tienda.Usuario.entity;
 
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
@@ -6,7 +6,7 @@ import com.sofka.implementacionDDD.Tienda.Usuario.events.*;
 import com.sofka.implementacionDDD.Tienda.Usuario.values.IdSuscripcion;
 import com.sofka.implementacionDDD.Tienda.Usuario.values.IdUsuario;
 import com.sofka.implementacionDDD.Tienda.Usuario.values.InformacionSuscripcion;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Videojuego;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.entity.Videojuego;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;

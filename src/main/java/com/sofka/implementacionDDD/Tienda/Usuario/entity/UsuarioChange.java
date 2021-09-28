@@ -1,4 +1,4 @@
-package com.sofka.implementacionDDD.Tienda.Usuario;
+package com.sofka.implementacionDDD.Tienda.Usuario.entity;
 
 import co.com.sofka.domain.generic.EventChange;
 import com.sofka.implementacionDDD.Tienda.Usuario.events.*;

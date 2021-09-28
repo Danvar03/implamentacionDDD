@@ -1,9 +1,9 @@
 package com.sofka.implementacionDDD.Tienda.Usuario.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import com.sofka.implementacionDDD.Tienda.Usuario.Cuenta;
-import com.sofka.implementacionDDD.Tienda.Usuario.Suscripcion;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Videojuego;
+import com.sofka.implementacionDDD.Tienda.Usuario.entity.Cuenta;
+import com.sofka.implementacionDDD.Tienda.Usuario.entity.Suscripcion;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.entity.Videojuego;
 
 import java.util.ArrayList;
 import java.util.List;

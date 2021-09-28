@@ -1,7 +1,7 @@
 package com.sofka.implementacionDDD.Tienda.Usuario.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import com.sofka.implementacionDDD.Tienda.Usuario.Cuenta;
+import com.sofka.implementacionDDD.Tienda.Usuario.entity.Cuenta;
 
 public class CuentaModificada extends DomainEvent {
     private final Cuenta cuenta;

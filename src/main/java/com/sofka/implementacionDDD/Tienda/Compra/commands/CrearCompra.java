@@ -5,8 +5,8 @@ import com.sofka.implementacionDDD.Tienda.Compra.entity.Descuento;
 import com.sofka.implementacionDDD.Tienda.Compra.entity.Factura;
 import com.sofka.implementacionDDD.Tienda.Compra.values.IdCompra;
 import com.sofka.implementacionDDD.Tienda.Compra.values.PrecioTotal;
-import com.sofka.implementacionDDD.Tienda.Usuario.Usuario;
-import com.sofka.implementacionDDD.Tienda.VideoJuego.Videojuego;
+import com.sofka.implementacionDDD.Tienda.Usuario.entity.Usuario;
+import com.sofka.implementacionDDD.Tienda.VideoJuego.entity.Videojuego;
 
 import java.util.List;
 
